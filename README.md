@@ -6,6 +6,6 @@
 * Nama
 * Email
 * Phone Number
-* Favorite Role
+* Favorite website
 
 #### This is just information for register
