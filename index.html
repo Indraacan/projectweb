@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body background="back.jpg" style="margin: 5% 5%;">
-
-    <h2 class="blue" style="text-align: center;">Please fill the form to register </h2>
-    <form action="" method="POST">
+<body style="margin-left: 20%; margin-right: 20%;">
+<form action="" method="POST">
+    <div class="container-header">
+        <h2 class="blue" style="text-align: center;">Please fill the form to register </h2>
+    </div>
+    <div class="container">
+    
         <h3 class="color">1.Personal Information</h2>
             <div style="width: 48%;display: inline-block;">
                 <div>
@@ -22,10 +25,11 @@
                     <br>
                     Gender
                     <br>
-                    <select name="gender" id="">
-                        <option value="male">male</option>
-                        <option value="female">female</option>
+                    <select style="width: 210px;border-width: 5px;" name="gender" id="">
                         <option value="other">other</option>
+                        <option value="female">female</option>
+
+                        <option value="male">male</option>
                     </select>
                 </div>
             </div>
@@ -324,17 +328,25 @@
 
             <div>
                 <h3 class="color">3. Interests</h3>
-                <div class="center color" >
+                <div class="center color">
 
-                <b>Pick your favorite role</b>
-                <br>
-                <br>
-                    <input type="image" src="jetli.jpg" alt="jetli" width="120px" style="margin-right: 3%;" ;">
-                    <input type="image" src="einst.jpeg" alt="einstein" width="180" style="margin-right: 3%;">
-                    <input type="image" src="mark.jpg" alt="mark zuk" width="240px" style="margin-right: 3%;">
-                    <input type="image" src="chiang.jpg" alt="chiang" width="200px">
+                    <b>Pick your favorite website</b>
+                    <br>
+                    <br>
+                    <div class="center">
+                        <a href="https://www.blibli.com/"><img alt="bli" src="bli.png" style="width: 200px;"></a>
+                        <a href="https://www.bukalapak.com/"><img alt="bli" src="buka.jpeg" style="width: 200px;"></a>
+                        <a href="https://www.gojek.com/"><img alt="bli" src="gojek.jpeg" style="width: 200px;"></a>
+                        <a href="https://www.grab.com/"><img alt="bli" src="grab.png" style="width: 200px;"></a>
+                        <a href="https://www.tokopedia.com/"><img alt="bli" src="toko.png" style="width: 200px;"></a>
+                        <a href="https://www.traveloka.com/"><img alt="bli" src="traveloka.png"
+                                style="width: 200px;"></a>
+                    </div>
+
+
                 </div>
                 <br>
+
                 <br>
                 <br>
                 <br>
@@ -350,14 +362,14 @@
                 <br>
                 <br>
                 <div class="center">
-                    <input type="submit" value="cancel" style="width: 100px;">
-                    <input type="submit" value="submit" style="width: 100px;">
+                    <input type="submit" value="cancel" style="width: 120px;margin-right: 5%;">
+                    <input type="submit" value="submit" style="width: 120px;">
                 </div>
 
             </div>
 
     </form>
-
+    </div>
 
 </body>
 
